@@ -1,0 +1,28 @@
+version: "3.7"
+services:
+    client:
+        image: docker.pkg.github.com/ckanich-classrooms/final-project-in-debt/webapp:0.10
+        ports:
+            - "80:8080"
+        entrypoint: [ "npm", "start"]
+        environment:
+            - PORT=8080
+        links:
+            - mongodb
+        networks:
+            - webappnetwork
+    mongodb:
+        image: mongo
+        restart: always
+        container_name: mongodb
+        volumes:
+            - dbdata:/data/db
+        ports:
+            - "27017:27017"
+        networks:
+            - webappnetwork
+networks:
+    webappnetwork:
+        driver: bridge
+volumes:
+    dbdata:

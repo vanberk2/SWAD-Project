@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>CS 494 Final Project - Answers</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="site.css">
+  </head>
+  <body class="pb-5">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">How much do you value your life?</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./questions.html">Questions
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Answers</a>
+              <span class="sr-only">(current)</span>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./credits.html">Credits</a>
+            </li>
+            <li class="nav-item">
+              <form action="logout" method="POST">
+                <input class="nav-link" type="submit" value="Logout">
+              </form>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+    <!-- Page Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h1 class="mt-5">Welcome, ${USER}!</h1>
+          <h4 class="mb-3">Here are your past answers.</h1>
+          <img class="mb-5" src="https://advicesacademy.com/wp-content/uploads/2018/03/Best-Question-and-Answer-Sites.jpg">
+          <div class="accordion" id="answers">
+            <div class="card">
+              <div class="card-header" id="ans-hdr1">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#answer1" aria-expanded="true" aria-controls="answer1">
+                    How much money would have to be on the line to convince you to hop on a plane from Chicago to NYC?
+                  </button>
+                </h5>
+              </div>
+          
+              <div id="answer1" class="collapse" aria-labelledby="ans-hdr1" data-parent="#answers">
+                <div class="card-body row">
+                  <div class="col-sm">
+                    <div class="user-result">
+                      <h6>Your Answer:</h6>
+                      <span>$12</span>
+                    </div>
+                    <div class="user-result">
+                      <h6>Your life is worth:</h6>
+                      <span>$500</span>
+                    </div>
+                    <div class="user-result">
+                      <h6>Past answers:</h6>
+                      <span>$10</span>
+                    </div>
+                  </div>
+                  <div class="col-sm">
+                    <h6>You value your life more than <b>10%</b> of other respondants.</h6>
+                    <img src="https://s.abcnews.com/images/US/airbus-gty-er-190417_hpMain_16x9_992.jpg">
+                  </div>
+                  <div class="col-sm align-self-center">
+                    <label for="answer1-update">Update your answer?</label>
+                    <form action="update" method="POST" class="input-group">
+                      <input id="answer1-update" type="number" class="form-control" placeholder="Enter a positive integer.">
+                      <div class="input-group-append">
+                        <button class="btn btn-secondary">Submit</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="ans-hdr2">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#answer2" aria-expanded="false" aria-controls="answer2">
+                    How much money would have to be on the line to go over Niagra Falls in a barrel?
+                  </button>
+                </h5>
+              </div>
+              <div id="answer2" class="collapse" aria-labelledby="ans-hdr2" data-parent="#answers">
+                <div class="card-body row">
+                  <div class="col-sm">
+                    <div class="user-result">
+                      <h6>Your Answer:</h6>
+                      <span>$50,000</span>
+                    </div>
+                    <div class="user-result">
+                      <h6>Your life is worth:</h6>
+                      <span>$14,500</span>
+                    </div>
+                    <div class="user-result">
+                      <h6>Past answers:</h6>
+                      <span>$100,000</span>
+                    </div>
+                  </div>
+                  <div class="col-sm">
+                    <h6>You value your life more than <b>56%</b> of other respondants.</h6>
+                    <img src="https://i.pinimg.com/236x/f9/0b/30/f90b306c08147b5b41572829cb384d72--photos-google-helmet.jpg">
+                  </div>
+                  <div class="col-sm align-self-center">
+                    <label for="answer2-update">Update your answer?</label>
+                    <form action="update" method="POST" class="input-group">
+                      <input id="answer2-update" type="number" class="form-control" placeholder="Enter a positive integer.">
+                      <div class="input-group-append">
+                        <button class="btn btn-secondary">Submit</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="ans-hdr3">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#answer3" aria-expanded="false" aria-controls="answer3">
+                    How much money would have to be on the line to drive in oncoming traffic on the highway?
+                  </button>
+                </h5>
+              </div>
+              <div id="answer3" class="collapse" aria-labelledby="ans-hdr3" data-parent="#answers">
+                <div class="card-body row">
+                  <div class="col-sm">
+                    <div class="user-result">
+                      <h6>Your Answer:</h6>
+                      <span>$20</span>
+                    </div>
+                    <div class="user-result">
+                      <h6>Your life is worth:</h6>
+                      <span>$0.05</span>
+                    </div>
+                    <div class="user-result">
+                      <h6>Past answers:</h6>
+                      <span>$30,000,000</span>
+                    </div>
+                  </div>
+                  <div class="col-sm">
+                    <h6>You value your life more than <b>0.01%</b> of other respondants.</h6>
+                    <img src="https://laughmoreabundant.files.wordpress.com/2012/06/oncoming-traffic.jpg">
+                  </div>
+                  <div class="col-sm align-self-center">
+                    <label for="answer3-update">Update your answer?</label>
+                    <form action="update" method="POST" class="input-group">
+                      <input id="answer3-update" type="number" class="form-control" placeholder="Enter a positive integer.">
+                      <div class="input-group-append">
+                        <button class="btn btn-secondary">Submit</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+      
+  </body>
+</html>

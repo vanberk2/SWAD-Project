@@ -1,0 +1,72 @@
+body {
+  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+  background: #f8f8f8;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  text-align: center;
+  background: #650000;
+  color: white;
+  padding: 1rem 0.5rem;
+  margin: 0;
+}
+
+.section {
+  display: block;
+  padding: 0.5rem;
+  margin: 1rem auto;
+  background: #e5e4e4;
+  text-align: center;
+  padding: 1rem;
+}
+
+.section-title {
+  font-size: 1.2rem;
+  margin: 0.1rem;
+  margin-bottom: .75rem;
+  text-align: center;
+}
+
+a {
+  color: #00b7ff;
+}
+
+form {
+  display: block;
+  margin: 10;
+}
+
+.favorites {
+  padding: 1rem;
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.favorites-text {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.app {
+  display: block;
+  margin: 0.5rem auto;
+}
+
+button {
+  margin: 0.25rem;
+}
+
+input {
+  margin: 0.25rem;
+}
+
+label {
+  margin: 0.5rem;
+}
+
+ul {
+  list-style-type: square;
+  text-align: left;
+}

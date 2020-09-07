@@ -1,0 +1,66 @@
+.list-group-item a {
+  display: block;
+  padding: .75rem 1.25rem;
+  transition: 0.2s;
+}
+.list-group-item a:hover {
+  background: #f5f5f5;
+  text-decoration: none;
+}
+.list-group-item {
+  padding: 0;
+}
+.container img {
+  max-width: 100%;
+}
+.user-result {
+  min-height: 33%;
+}
+.circle {
+  width: 90%;
+  padding-top: 90%;
+  border-radius: 100%;
+  margin: 20px auto;
+  position: relative;
+}
+.green {
+  background: #f8ff00 linear-gradient(#f8ff00, #3ad59f);
+}
+.blue {
+  background: #00d2ff linear-gradient(#00d2ff, #3a47d5);
+}
+.purple {
+  background: #4776e6 linear-gradient(#4776e6, #8e54e9);
+}
+.author {
+  position: absolute;
+  margin: 0 auto;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+}
+.author > * {
+  display: block;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px !important;
+}
+.author a:hover {
+  color: rgba(255, 255, 255, 0.75);
+}
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+  padding: 15px;
+}
+input.nav-link {
+  background: none;
+  border: none;
+}
+.error {
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  padding: 0.6em;
+  margin-top: 0.5em;
+  border-radius: 10px;
+}

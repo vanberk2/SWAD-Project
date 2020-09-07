@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>CS 494 Final Project - Question</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="site.css">
+  </head>
+  <body class="pb-5">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">How much do you value your life?</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./questions.html">Questions
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./answers.html">Answers</a>
+            </li>
+            <li class="nav-item">
+              <form action="credits" method="POST">
+                <input class="nav-link" type="submit" value="Credits">
+              </form>
+            </li>
+            <li class="nav-item">
+              <form action="logout" method="POST">
+                <input class="nav-link" type="submit" value="Logout">
+              </form>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+    <!-- Page Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h1 class="mt-5">How much money would have to be on the line to convince you to go into outer space?</h1>
+          <h4 class="mb-3 muted-text" id="question-id">#2</h4>
+          <!-- TODO --> 
+          <form method="POST" action="answer" class="input-group my-5">
+            <div class="input-group my-5">
+              <input name="answer" type="number" class="form-control" placeholder="Enter a positive integer.">
+              <input type="hidden" name="id" value="1">
+              <div><button class="btn btn-secondary btn-block btn-sm">Test Submit</button></div>
+            </div>
+          </form>
+          <div class="row results my-5" style="display: none;">
+            <div class="col-sm">
+              <div class="user-result">
+                <h6>Your Answer:</h6>
+                <span>$12</span>
+              </div>
+              <div class="user-result">
+                <h6>Your life is worth:</h6>
+                <span>$500</span>
+              </div>
+              <div class="user-result">
+                <h6>Past answers:</h6>
+                <span>$10</span>
+              </div>
+            </div>
+            <div class="col-sm">
+              <h6>You value your life more than <b>10%</b> of other respondants.</h6>
+              <img src="https://via.placeholder.com/300?text=Visualization+Placeholder+Image">
+            </div>
+          </div>
+          <form method="POST" action="next">
+            <input type="submit" class="btn btn-block btn-outline-secondary" value="Next">
+          </form>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script>
+      // TODO: actually do the calculations & generate the objects
+      $(document).ready(() => {
+        $(".btn").click(() => {
+          console.log("test");
+          $(".results").show();
+        });
+      });
+    </script>
+  </body>
+</html>

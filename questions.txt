@@ -1,0 +1,24 @@
+BRAINSTORMING
+topics we could use + their associated fatality rates.
+
+1. How much money would have to be on the line to convince you to go skydiving?
+0.006 per 1,000 jumps
+https://uspa.org/Find/FAQs/Safety
+
+2. How much money would have to be on the line to convince you to go into outer space?
+18/1268
+https://en.wikipedia.org/wiki/List_of_spaceflight_records#Total_human_spaceflight_time_by_country
+
+3. How much money would have to be on the line to convince you to go over Niagara Falls in a barrel or barrel-like contraption?
+4/13
+https://www.uh.edu/engines/epi1007.htm
+
+4. How much money would have to be on the line to convince you to go scuba diving?
+0.18 per 10000 dives
+https://doi.org/10.1016%2Fj.puhe.2017.11.011
+
+5. How much money would have to be on the line to convince you to ride in a car for 1,000 miles?
+TODO -- https://en.wikipedia.org/wiki/Transportation_safety_in_the_United_States
+
+6. How much money would have to be on the line to convince you to hop on a plane from Chicago to NYC?
+TODO
