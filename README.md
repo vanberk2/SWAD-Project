@@ -1,6 +1,9 @@
 # Team "in debt" Final Project
 
-## Description
+## Brief Note
+This is a group project I worked on for CS 484 Secure Web App Development. Unfortunately, we were unable to get it to the point that we had hoped to because COVID-19 significantly disrupted our development.
+
+## Project Description
 
 Our project is a slightly morbid survey app.
 
@@ -17,8 +20,6 @@ Adam | web programming novice | |
 Uzair | web programming novice | |
 Jessica | took it 202, made a handful of <1000 line web development mini-projects | I'd like to make the page responsive & a PWA. |
 
-✔️ : Succesfully or nearly Implemeneted
-
 ## Full To-do list:
 * working session management 
 * calculate "cost of life" related to simple survey answers (ie, overall) 
@@ -32,19 +33,19 @@ Jessica | took it 202, made a handful of <1000 line web development mini-project
 
 ## Deliverables for checkpoint 2
 
-* working registration ✔️ 
-* working session management ✔️
-* static versions of all pages (logged out, question, answer, question list, answer list) ✔️ 
-* calculate "cost of life" related to simple survey answers (ie, overall) ✔️
-* implement some form of CRUD data manipulation ✔️
-* store the data in a backing store outside of the web app code itself (e.g. mongodb) ✔️
+* working registration  
+* working session management 
+* static versions of all pages (logged out, question, answer, question list, answer list)  
+* calculate "cost of life" related to simple survey answers (ie, overall) 
+* implement some form of CRUD data manipulation 
+* store the data in a backing store outside of the web app code itself (e.g. mongodb) 
 
 
 ## Deliverables for checkpoint 4
 
-* pass 80% of all tests ✔️
-* 404 error page ✔️
-* passwords are not stored in plaintext ✔️
+* pass 80% of all tests 
+* 404 error page 
+* passwords are not stored in plaintext 
 * calculate "cost of life" related to life expectancy (ie, per year) 
 * answers/results pages include pretty data visualizations 
 
